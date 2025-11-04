@@ -3,7 +3,7 @@ import Header from "./Header"
 
 const Layout = () => {
     return (
-        <div className="container">
+        <div className="">
             <Header />
             <Outlet />
         </div>

@@ -24,7 +24,7 @@ const CartStatus = () => {
 
 const Header = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light shadow-sm px-4 py-2">
+    <nav className=" container navbar navbar-expand-lg navbar-light bg-light shadow-sm px-4 py-2">
       <div className="container-fluid">
         {/* Brand */}
         <NavLink className="navbar-brand fw-bold" to="/">
