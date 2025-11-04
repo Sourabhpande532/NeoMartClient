@@ -9,6 +9,7 @@ import { ProductDetails } from './pages/ProductDetails';
 import { WishList } from './pages/WishList';
 import { Cart } from './pages/CartPage';
 import { Dummay } from './pages/Dummy';
+import {ProductListing} from "./pages/ProductListing"
 
 const router = createBrowserRouter( [
   {
@@ -18,6 +19,10 @@ const router = createBrowserRouter( [
       {
         index: true,
         element: <App />
+      },
+      {
+        path:"/productListing/:categoryId",
+        element:<ProductListing/>
       },
       {
         path: "/wishlist",
